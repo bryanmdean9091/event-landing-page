@@ -1,0 +1,18 @@
+h1,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navi {
+  font-family: "Style Script", cursive;
+}
+
+.header,
+.navi,
+p {
+  color: #394855;
+}
+
+.jumbotron {
+  background-color: #ecf1f5;
+}
