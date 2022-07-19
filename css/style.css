@@ -1,3 +1,7 @@
+p {
+  color: #778ea3;
+}
+
 h1,
 p {
   font-family: "Open Sans", sans-serif;
@@ -7,12 +11,22 @@ p {
   font-family: "Style Script", cursive;
 }
 
+.bg-image {
+}
+
 .header,
 .navi,
-p {
+.heading-info {
   color: #394855;
 }
 
 .jumbotron {
-  background-color: #ecf1f5;
+  background-image: url(../img/placeholder.PNG);
+  background-repeat: no-repeat;
+  background-color: #e1eaf1;
+  background-position: center;
+}
+
+hr {
+  border-color: #778ea3;
 }
