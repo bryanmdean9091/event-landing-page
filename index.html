@@ -23,12 +23,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- awesome fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous"/>
+    
   </head>
   <body>
+
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-white">
+
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand mx-lg-5 fs-1 fw-bold fst-italic navi" href="#">moqups</a>
+        <a class="navbar-brand mx-lg-5 fs-1 fw-bold fst-italic navi" href="index.html">moqups</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -43,8 +48,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto fs-5 mx-5 fw-bold">
             <a class="nav-link active" aria-current="page" href="#speaker">Speaker</a>
-            <a class="nav-link active" aria-current="page" href="#">Tickets</a>
-            <a class="nav-link active" aria-current="page" href="#">Venue</a
+            <a class="nav-link active" aria-current="page" href="#tickets">Tickets</a>
+            <a class="nav-link active" aria-current="page" href="#venue">Venue</a
        
           </div>
         </div>
@@ -53,7 +58,7 @@
 
 
     <!-- Jumbotron -->
-<div class="jumbotron bg-image">
+<div class="jumbotron bg-image h-auto my-5">
     <div class="container-fluid p-5">
   
       <div class="text-center">
@@ -78,24 +83,24 @@
                 <div class="card border-0">
                     <img src="img/placeholder.PNG" alt="">
                     <h2 class="my-3 header">Ruby Jennings</h2>
-                    <p class="">Product Manager at Moqups. Runner, parent and coffee lover.</p>
-                    <p class="">@username</p>
+                    <p>Product Manager at Moqups. Runner, parent and coffee lover.</p>
+                    <p>@username</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 px-5">
                 <div class="card border-0">
                     <img src="img/placeholder.PNG" alt="">
                     <h2 class="my-3 header">Leon Hanson</h2>
-                    <p class="">Sales Manager at /moqups. Runner,parent and coffee lover.</p>
-                    <p class="">@username</p>
+                    <p>Sales Manager at /moqups. Runner,parent and coffee lover.</p>
+                    <p>@username</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 px-5">
                 <div class="card border-0">
                     <img src="img/placeholder.PNG" alt="">
                     <h2 class="my-3 header">Meghan Stone</h2>
-                    <p class="">Marketing Specialist at Moqups. Runner, parent and coffee lover.</p>
-                    <p class="">@username</p>
+                    <p>Marketing Specialist at Moqups. Runner, parent and coffee lover.</p>
+                    <p>@username</p>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 px-5">
@@ -103,14 +108,67 @@
                     <img src="img/placeholder.PNG" alt="">
                     <h2 class="my-3 header">Willie Perkins</h2>
                     <p class="">Ux Engineer at Moqups. Runner, parent and coffee lover.</p>
-                    <p class="">@username</p>
+                    <p>@username</p>
                 </div>
             </div>
         </div>
     </div>
 
 
+<hr class="my-3" id="tickets">
+
+<!-- body 2 -->
+
+<div class="container my-5 text-center px-5">
+  <h1 class="fs-2 fw-bold header my-5 px-5" >Get Your Ticket Today!</h1>
+  <p class="m-auto my-5">Each ticket includes: <strong>20</span> Speackers, <strong>100</strong> participants, <strong>15</strong> sessions, <strong>5</strong> keynotes.</p>
+  <button type="button" class="btn btn-dark rounded-1 btn-lg fw-bold fs-6 text-uppercase px-5 py-3 mb-5">Get the tickets</button>
+</div>
+
+<hr id="venue">
+
+<!-- map area -->
+
+<div class="container d-flex justify-content-center px-5">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12">
+      <h1 class="header fs-2 fw-bold mt-4 mb-5">The Venue</h1>
+      <p class="fw-normal header mb-5 w-75">Our event will be held at the <strong>Main Office Geadquarters at Provost & East Building 145 City Road, London.</strong></p>
+      <div class="map-responsive mb-5">
+        <iframe
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France"
+          width="100%"
+          height="50%"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <img class="w-100 h-auto mx-auto" src="/img/placeholder.PNG" alt="">
+    </div>
+  </div>
+</div>
+
+
 <hr>
+
+<footer>
+<div class="container my-auto ">
+  <div class="row">
+    <div class="col-md-6 float-start fs-5 ">
+    <a class="header px-2 " href="https://twitter.com/home?lang=en"><i class="fa-brands fa-twitter"></i></a>
+    <a class="header px-2" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+    <a class="header px-2" href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square"></i></a>
+  </div>
+    <div class="col-mid-6 d-inline">
+    <p class="float-end fw-normal ">© 2019 Moqups</p>
+  </div>
+  </div>
+  </div>
+</footer>
+
     <!-- Bootstrap -->
 
     <script
