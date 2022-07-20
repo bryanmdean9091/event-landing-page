@@ -1,0 +1,21 @@
+.navi {
+    font-family: "Style Script", cursive;
+}
+h1 {
+    color: red;
+    font-family: 'Anton', sans-serif;
+}
+.jum {
+    color: white;
+}
+.jumbo {
+    height: auto;
+    background-image: url("./image/overlook3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h2 {
+    font-family: 'Anton', sans-serif;
+}
+
