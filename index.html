@@ -10,10 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -96,8 +92,31 @@
                 </div>
             </div>
         </div>
-        
     </div>
+    <!-- start of map Section-->
+    <div class="container-fluid text-center mt-5 d-flex justify-content-center mb-5">
+        <div class="row w-75 venue-row"> <!-- w-75 gives a width of 75% of the total container size -->
+          <div class="col-md-6 col-sm-12 text-sm-center"> <!-- on medium devices and larger this column uses 6/12 width, on small devices it takes the full width. This column contains both the venue header and map similar to a container for the secton -->
+            <div class="the-venue text-md-start"> <!-- This column contains the header map and image (everything). Probably could have removed some of these divs to be honest but I'd have to test it -->
+              <div class="mb-4"> <!-- Adds margin bottom of 4 to the header-->
+                <h4 class="fw-bold">The Venue</h4>
+              </div>
+              <div class="col-md-8 mb-5 text-sm-center text-md-start"> <!-- On medium devices and up this div is 8/12, on small devices its 12/12. text center for small devices, text aligned at start of div for medium and up-->
+                <p>Job Fair will be held in the famous <br><span class="fw-bold">Gold Room<br></span>of the Overlook Hotel in Colorado</p> <!--br is a line break for the text i used span to bold specific section within paragraph-->
+              </div>
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.9090530361177!2d-121.712327284933!3d45.33045895037935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54be1991ab22e463%3A0xd99fc2482481cf49!2sTimberline%20Lodge%20ski%20area!5e0!3m2!1sen!2sus!4v1658354923374!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 image">
+            <img src="./CSS/image/goldroom.png" alt="" class="w-100 h-100">
+          </div>
+        </div>
+      </div>
+
+    
+          
     
 
 

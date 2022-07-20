@@ -19,3 +19,19 @@ h2 {
     font-family: 'Anton', sans-serif;
 }
 
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.section-right {
+    margin-left: 40rem;
+}
