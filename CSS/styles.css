@@ -32,6 +32,54 @@ h2 {
     width:100%;
     position:absolute;
 }
-.section-right {
-    margin-left: 40rem;
+.footer {
+    border-top: .25rem solid red;
+    height: 5rem;
+
 }
+
+/* breakpoints */
+ /* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  .fa-brands {
+    size-adjust:  25%;
+  }
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   .fa-brands{
+   size-adjust:  50%;
+  }
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .fa-brands {
+    size-adjust:  75%;
+  }
+
+}
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .fa-brands {
+    size-adjust:  100%;
+  }
+
+}
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+  .fa-brands{
+    size: 120%;
+  }
+}
+
+
+
+
+
+    
