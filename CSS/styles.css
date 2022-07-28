@@ -1,5 +1,16 @@
-.navi {
+
+ .navi {
     font-family: "Style Script", cursive;
+}
+.navbar {
+  background-color: red;
+}
+svg {
+  color: red;
+  top: 0;
+  position: sticky;
+  z-index: -1;
+  
 }
 h1 {
     color: red;
@@ -14,9 +25,14 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    border: .25rem solid red;
 }
 h2 {
     font-family: 'Anton', sans-serif;
+}
+
+.card {
+  border: .25rem solid red;
 }
 
 .map-responsive{
@@ -32,10 +48,21 @@ h2 {
     width:100%;
     position:absolute;
 }
+.map {
+  border: .25rem solid red;
+}
 .footer {
     border-top: .25rem solid red;
     height: 5rem;
+}
 
+.fa-brands {
+  color: red;
+}
+ 
+.nav-item {
+  font-weight: bolder;
+  color: red;
 }
 
 /* breakpoints */
