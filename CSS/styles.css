@@ -29,12 +29,13 @@ h1 {
 }
 h2 {
     font-family: 'Anton', sans-serif;
+    z-index: 4;
 }
 
 .card {
   border: .25rem solid red;
+  z-index: 4;
 }
-
 .map-responsive{
     overflow:hidden;
     padding-bottom:50%;
